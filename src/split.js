@@ -17,7 +17,10 @@ function FutureSplitMethod(separators) {
 			charsArray.split(",").forEach(final => {
 				return (finalResult += final);
 			});
-			return finalResult;
+			return {
+				asString: finalResult,
+				asArray: charsArray.split(","),
+			};
 		} else {
 			return separators;
 		}
@@ -26,5 +29,5 @@ function FutureSplitMethod(separators) {
 
 String.prototype.steroid_split = FutureSplitMethod;
 
-export default steroid_split = FutureSplitMethod;
+export default String.prototype.steroid_split = FutureSplitMethod;
 
