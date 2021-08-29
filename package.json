@@ -1,6 +1,6 @@
 {
   "name": "split-on-steroids",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Native Split function extended of multiply spliting separators",
   "main": "./dist/SplitOnSteroids.min.js",
   "devDependencies": {
