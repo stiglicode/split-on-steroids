@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             js: {
                 options: {
                     sourceMap: true,
-                    sourceMapName: "./src/dist/SplitOnSteroids.map.js"
+                    sourceMapName: "./dist/SplitOnSteroids.map.js"
                   },
                 files:[{
                     src: "./src/split.js",
